@@ -1,0 +1,13 @@
+com\marvp\mapa\Mapa.class
+com\marvp\proyecto12025\Proyecto12025.class
+com\marvp\proyecto12025\Mapa.class
+com\marvp\mapa\casilla\CasillaTrampa.class
+com\marvp\mapa\casilla\CasillaNormal.class
+com\marvp\mapa\casilla\Casilla.class
+com\marvp\personaje\Enemigo.class
+com\marvp\proyecto12025\Combate.class
+com\marvp\proyecto12025\Juego.class
+com\marvp\mapa\casilla\CasillaPista.class
+com\marvp\mapa\casilla\CasillaMuro.class
+com\marvp\personaje\Jugador.class
+com\marvp\mapa\casilla\CasillaEnemigo.class
