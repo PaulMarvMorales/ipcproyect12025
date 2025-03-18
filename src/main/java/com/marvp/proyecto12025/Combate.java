@@ -23,8 +23,8 @@ public class Combate {
     public void iniciarCombate() {
         System.out.println("¡Combate iniciado!");
         while (jugador.getHp() > 0 && enemigo.getHp() > 0) {
-            jugador.recibirDano(enemigo.getAtaque());
-            enemigo.recibirDano(jugador.getAtaque());
+            jugador.recibirDanio(enemigo.getAtacar());
+            enemigo.recibirDanio(jugador.getAtacar());
         }
         if (jugador.getHp() > 0) {
             System.out.println("¡Has ganado el combate!");

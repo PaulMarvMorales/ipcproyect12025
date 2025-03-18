@@ -8,11 +8,24 @@ package com.marvp.personaje;
  *
  * @author paul_
  */
-public class Enemigo {
-    private int hp = 50;
-    private int ataque = 10;
+public class Enemigo extends Personaje {
 
-    public int getHp() { return hp; }
-    public int getAtaque() { return ataque; }
-    public void recibirDano(int cantidad) { hp -= cantidad; }
+    public Enemigo() {
+        super(25, 5);
+    }
+
+    public int getHp() {
+        return hp;
+    }
+
+    @Override
+    public int getAtacar() {
+        return ataque;
+    }
+    
+    
+    @Override
+    public void recibirDanio(int cantidad) {
+        hp -= cantidad;
+    }
 }

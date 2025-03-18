@@ -4,6 +4,7 @@ com\marvp\proyecto12025\Mapa.class
 com\marvp\mapa\casilla\CasillaTrampa.class
 com\marvp\mapa\casilla\CasillaNormal.class
 com\marvp\mapa\casilla\Casilla.class
+com\marvp\personaje\Personaje.class
 com\marvp\personaje\Enemigo.class
 com\marvp\proyecto12025\Combate.class
 com\marvp\proyecto12025\Juego.class

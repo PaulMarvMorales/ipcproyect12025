@@ -122,7 +122,7 @@ public class Juego {
         System.out.println("\n--- ESTADÍSTICAS ---");
         System.out.println("Movimientos realizados: " + movimientos);
         System.out.println("HP del jugador: " + jugador.getHp());
-        System.out.println("Ataque del jugador: " + jugador.getAtaque());
+        System.out.println("Ataque del jugador: " + jugador.getAtacar());
     }
 
     public void modificarMapa() {

@@ -18,7 +18,7 @@ public class CasillaTrampa extends Casilla {
         this.dano = dano;
     }
     public void activar(Jugador jugador) {
-        jugador.recibirDano(dano);
+        jugador.recibirDanio(dano);
         System.out.println("¡Pisas una trampa! Pierdes " + dano + " puntos de vida.");
     }
 }

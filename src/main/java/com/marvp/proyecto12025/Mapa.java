@@ -73,10 +73,10 @@ public class Mapa {
     }
 
     public int getInicioX() {
-        return 0; // Puedes cambiarlo según la lógica del juego
+        return 0; 
     }
 
     public int getInicioY() {
-        return 0; // Puedes cambiarlo según la lógica del juego
+        return 0; 
     }
 }
