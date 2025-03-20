@@ -11,11 +11,6 @@ import com.marvp.personaje.Jugador;
  * @author paul_
  */
 public class CasillaEnemigo extends Casilla {
-    public CasillaEnemigo(int x, int y) {
-        super(x, y);
-        this.tipo = "Enemigo";
-    }
-    public void activar(Jugador jugador) {
-        System.out.println("¡Un enemigo aparece!");
-    }
+    public CasillaEnemigo(int x, int y) { super(x, y); }
+    public char getSimbolo() { return 'E'; }
 }

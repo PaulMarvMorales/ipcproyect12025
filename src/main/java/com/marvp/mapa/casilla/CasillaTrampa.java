@@ -10,15 +10,15 @@ import com.marvp.personaje.Jugador;
  *
  * @author paul_
  */
-public class CasillaTrampa extends Casilla {
+public class CasillaTrampa {
     private int dano;
     public CasillaTrampa(int x, int y, int dano) {
-        super(x, y);
-        this.tipo = "Trampa";
+      //  super(x, y);
+     //   this.tipo = "Trampa";
         this.dano = dano;
     }
     public void activar(Jugador jugador) {
-        jugador.recibirDanio(dano);
+      //  jugador.recibirDanio(dano);
         System.out.println("¡Pisas una trampa! Pierdes " + dano + " puntos de vida.");
     }
 }

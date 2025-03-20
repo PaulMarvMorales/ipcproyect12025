@@ -10,11 +10,11 @@ import com.marvp.personaje.Jugador;
  *
  * @author paul_
  */
-public class CasillaPista extends Casilla {
+public class CasillaPista  {
     private String pista;
     public CasillaPista(int x, int y, String pista) {
-        super(x, y);
-        this.tipo = "Pista";
+        //super(x, y);
+        //this.tipo = "Pista";
         this.pista = pista;
     }
     public void activar(Jugador jugador) {

@@ -11,11 +11,6 @@ import com.marvp.personaje.Jugador;
  * @author paul_
  */
 public class CasillaMuro extends Casilla {
-    public CasillaMuro(int x, int y) {
-        super(x, y);
-        this.tipo = "Muro";
-    }
-    public void activar(Jugador jugador) {
-        System.out.println("¡Es un muro! No puedes pasar.");
-    }
+    public CasillaMuro(int x, int y) { super(x, y); }
+    public char getSimbolo() { return '#'; }
 }

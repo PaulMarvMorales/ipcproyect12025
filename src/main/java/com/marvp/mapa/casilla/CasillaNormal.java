@@ -11,13 +11,6 @@ import com.marvp.personaje.Jugador;
  * @author paul_
  */
 public class CasillaNormal extends Casilla {
-
-    private final String tipo;
-    public CasillaNormal(int x, int y) {
-        super(x,y);
-        this.tipo = "Normal";
-    }
-    public void activar(Jugador jugador) {
-        // No hace nada especial
-    }
+    public CasillaNormal(int x, int y) { super(x, y); }
+    public char getSimbolo() { return '.'; }
 }

@@ -10,20 +10,11 @@ import com.marvp.personaje.Jugador;
  *
  * @author paul_
  */
-public class Casilla {
-    protected String tipo;
+public abstract class Casilla {
     protected int x, y;
-
-    public String getTipo() {
-        return tipo;
-    }
-    
     public Casilla(int x, int y) {
         this.x = x;
         this.y = y;
     }
-    
-    public  void activar(Jugador jugador){
-        System.out.println(""); // hace algo en cada casilla
-    }
+    public abstract char getSimbolo();
 }

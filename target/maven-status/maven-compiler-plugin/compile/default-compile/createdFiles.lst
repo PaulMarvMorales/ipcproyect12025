@@ -10,5 +10,6 @@ com\marvp\proyecto12025\Combate.class
 com\marvp\proyecto12025\Juego.class
 com\marvp\mapa\casilla\CasillaPista.class
 com\marvp\mapa\casilla\CasillaMuro.class
+com\marvp\mapa\casilla\CasillaOro.class
 com\marvp\personaje\Jugador.class
 com\marvp\mapa\casilla\CasillaEnemigo.class
